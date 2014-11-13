@@ -1,2 +1,2 @@
-spices
+adrendon.github.io/spices/
 ======

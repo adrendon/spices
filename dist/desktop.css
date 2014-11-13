@@ -1,0 +1,373 @@
+
+
+
+@media only screen and (min-width: 992px) {
+
+	.header-type1 ul.navbar-nav a { color: #969696; }
+	.header-type1 ul.navbar-nav li { border-bottom: 2px solid #222; }
+	/*.header-type1 ul.navbar-nav li:hover {
+	  border-bottom: 2px solid #e53025;
+	}*/
+	#navigation-list .navbar-nav ul {
+	  top: 105%;
+	  left: 0%;
+	}
+
+	.header-type2 ul.navbar-nav li { border-bottom: 2px solid #EAEFF2; }
+	/*.header-type2 ul.navbar-nav li:hover {
+	  border-bottom: 2px solid #e53025;
+	}*/
+	
+	header ul.navbar-nav a:after {
+		position: absolute;
+		bottom: 0;
+		height: 1px;
+		left: 50%;
+		width: 0%;
+		background-color: #e53025;
+		-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		-o-transition: all 0.2s ease;
+		-ms-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+		content: '';
+	}
+	header ul.navbar-nav a:hover:after,
+	header ul.navbar-nav a.active:after {
+	  width: 100%;
+	  left: 0;
+	}
+
+	.timing-details .timing-group {
+    float: left;
+    width: 40%;
+    margin-right: 40px;
+  }
+
+	/*-------------------- ABOUT US page --------------------*/
+	.about-us .timing-details .timing-group {
+		width: 25%;
+		margin: 0;
+	}
+  .seat-wrapper:first-of-type { padding-left: 0; }
+	.seat-wrapper:last-of-type { padding-right: 0; }
+
+	.about-us .table-book.button { float: right; }
+
+	/*.timing-group > div { padding: 10px; }*/
+
+	.seat-wrapper:first-of-type { padding-left: 0; }
+  /*-------------------- ABOUT US page ends ---------------*/
+
+
+
+
+	/*-------------------- KNOW YOUR FOOD --------------------*/
+	.chef-details { padding-right: 15px; }
+	.about-chef { padding-left: 15px; }
+	.about-chef-page .chef-details,
+	.about-chef-page .about-chef {
+	  float: left;
+	  width: 50%;
+	  text-align: left;
+	}/*-------------------- KNOW YOUR FOOD ends --------------*/
+
+
+
+
+	/*-------------------- CONTACT US --------------------*/
+	.contact-page .container > img { margin-top: 80px; }
+	.contact-page .content-wrapper { margin-top: 0; }
+
+	.contact-page .content-wrapper > img { display: none; }
+
+	.contact-page .office-details { width: 40%; }
+	.contact-page .write-us { width: 60%; }
+	.contact-page .office-details, .contact-page .write-us { float: left; }
+	/*-------------------- CONTACT US ends ----------------*/
+
+	
+
+
+	/* ----------- LOGIN SECTION ------------- */
+	.login-page.modal {
+		width: 950px;
+		margin-left: -475px;
+	}/* --------------------------------------- */
+
+
+
+
+	/* -------------- TESTIMONIALS PAGE ------------- */
+	.star-level-wrapper,
+	.comment-box-wrapper,
+	.facebook-box-wrapper { width: 33.33%; }
+
+	.star-level-wrapper { padding-left: 0!important; }
+	.facebook-box-wrapper { padding-right: 0!important; }
+	/* ----------------------------------------------- */
+	
+
+
+
+	/* -------------- OUR EVENTS PAGE ------------- */
+	.calender-markup { width: 70%; }
+
+	.todays-article .img-wrapper { width: 204px; }
+	.fc-five-rows .fc-row { height: 20%; }
+	.calender-info {
+	  float: left;
+	  width: 29%;
+	  position: relative;
+	  height: 650px;
+	}/* ----------------------------------------------- */
+
+
+
+
+	/* -------------- FOOD GALLERY PAGE ------------- */
+	.food-gallery .food-item { padding: 10px 30px 15px; }
+	.food-gallery .food-item-wrapper { width: 33.33%; }
+
+	/*.food-gallery .food-item-wrapper:nth-child(3n+3) { padding-right: 0; }
+	.food-gallery .food-item-wrapper:first-of-type,
+	.food-gallery .food-item-wrapper:nth-child(3n+4) { padding-left: 0; }*/
+
+	.food-gallery .food-item .figure {
+		width: 235px;
+		height: 235px;
+	}
+	/* ----------------------------------------------- */
+
+
+
+	.error-page-html .error-msg-box {
+	  text-align: center;
+	  max-width: 580px;
+	  left: 50%;
+	  margin-left: -290px;
+	  bottom: 7%;
+	  /*width: 80%;*/
+	}
+
+
+
+	/*------------------- OUR GALLERY PAGE --------------------*/
+	.main-event-img-wrapper {
+	  width: 60%;
+	  padding: 0 3px 0 0;
+	}
+	.side-event-img-wrapper {
+	  width: 40%;
+	  padding: 0 0 0 3px;
+	}
+	.side-event-images .img-wrapper {
+	  width: 50%;
+	  float: left;
+	  padding: 3px;
+	}
+	.side-event-images:last-of-type { margin-top: -3px; }
+
+	.video-gallery > div { height: 380px; }
+	.video-caption { right: 120px; }
+	.video-caption h2 { font-size: 52px; }
+	.video-caption h3 { font-size: 36px; }
+
+	.in-house .img-wrappers,
+	.own-event .img-wrappers { width: 33.33%; }
+	/*--------------------------------------------------------*/
+	
+
+
+	.upcoming-events .event-img-wrapper:nth-of-type(odd) { padding-left: 0; }
+	.upcoming-events .event-img-wrapper:nth-of-type(even) { padding-right: 0; }
+
+	.our-events .input-wrapper:nth-of-type(3n+1) { padding-left: 0; }
+	.our-events .input-wrapper:nth-of-type(3n) { padding-right: 0; }
+
+
+
+
+	.error-page-html > section {
+	  height: 100%;
+	  background-image: url("../assets/images/404.jpg");
+	  background-position: center;
+	  background-size: contain;
+	}
+	.error-page-html > section > img { display: none; }
+
+
+
+
+
+	/*============== 6.10.2014 ================*/
+	.app-download .figcaption {
+		-webkit-transform: translateY(25%);
+		-moz-transform: translateY(25%);
+		-o-transform: translateY(25%);
+		-ms-transform: translateY(25%);
+		transform: translateY(25%);
+	}
+	.app-download h2 { margin-top: 10px; }
+
+
+
+
+
+	/*============== 9.10.2014 ================*/
+	#navigation-list .navbar-nav > li:last-of-type:hover ul,
+	#navigation-list .navbar-nav > li:first-of-type:hover ul,
+	.desktop-nav-menu > li:last-of-type:hover ul,
+	.desktop-nav-menu > li:first-of-type:hover ul { max-height: 650px; }
+
+
+
+	/*============== 9.10.2014 ================*/
+	.landing .error-page-html > section {
+		background-image: url("../assets/images/landing-bg.jpg");
+		
+	}
+
+
+
+
+	.contact-us form > div:first-of-type { padding-left: 0; }
+	.contact-us form > div:last-of-type { padding-right: 0; }
+
+
+
+	.our-events .content-wrapper { margin-top: 60px; }
+
+
+
+	.food-gallery .map-search .city-search {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+
+
+	/*=========== 27.10.2014 ================*/
+	.fav-dish .about-dish,
+	.fav-dish .chef-details {
+		float: right;
+		width: 50%;
+	}
+	.fav-dish .about-dish { padding-left: 25px; }
+	.fav-dish .chef-details { padding-right: 25px; }
+
+
+
+	/*=========== 4.11.2014 ================*/
+	.social-btns li { margin-left: 15px; }
+
+
+}/*==================== MIN-WIDTH 992PX ==================================*/
+
+
+
+
+
+@media only screen and (min-width: 1200px) { /*===============================*/
+
+	.review-comments-wrapper {
+	  width: 50%;
+	  float: left;
+	}
+	.review-comments-wrapper:nth-of-type(odd) { padding-right: 10px; }
+	.review-comments-wrapper:nth-of-type(even) { padding-left: 10px; }
+	
+	.review-rating { width: 78%; }
+	
+	.twitter-feeds .figure { height: 80px; }
+	/* ----------- SOCIAL PRESENCE ------------- */
+	.twitter-feeds-wrapper,
+	.socials-wrapper { float: left; width: 50%; }
+	.twitter-feeds-wrapper { padding-right: 10px; }
+	.socials-wrapper { padding-left: 10px; }
+	.twitter-feeds li { margin: 10px 0; }
+	/* ------------------------------------------ */
+
+	.timing-group > div { padding: 10px; }
+
+
+	.delicious-menu a { padding: 20px 50px; }
+
+	.delicious-menu .figcaption {
+		margin-top: 127px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+
+
+
+  .everyday-events .feature-events .figcaption,
+  .everyday-events .feature-events .figure {
+    float: left;
+    width: 50%;
+  }
+}/*========================================================================*/
+
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {/*========*/
+	.review-rating,
+	.review-comments .cust-review { width: 85%; }
+
+	.twitter-feeds .figure { height: 140px; }
+
+	.food-gallery .figcaption > div { width: 50%; }
+	.food-gallery .figcaption > h2 {
+		width: auto;
+		display: inline-block;
+	}
+
+	.timing-group > div { padding: 3px; }
+
+
+	.delicious-menu .figcaption {
+		margin-top: 102px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+
+	/*========== 1.11.2014 ==========*/
+  .search-menu-items .price-add-select h2 {
+  	float: none;
+		margin: 20px 0 10px;
+		display: block;
+  }
+  .search-menu-items .price-add-select a { float: none; }
+  
+
+
+
+
+  .everyday-events .feature-events .figcaption {
+    float: left;
+    width: 60%;
+  }
+  .everyday-events .feature-events .figure {
+    float: left;
+    width: 40%;
+  }
+  .monthly-events-section .month-events { padding-top: 80px; }
+
+  .review figure { height: 51px; }
+}/*========================================================================*/
+
+
+@media only screen and (max-width: 1300px) {
+	.error-page-html > section { background-size: cover!important; }
+}

@@ -1,0 +1,529 @@
+
+
+
+@media only screen and (max-width: 767px) { /*==============================*/
+	
+	.banner .banner-caption { width: 100%; }
+	.banner > .container { padding: 0; }
+
+	.wrapper .content-wrapper {
+		margin-top: 50px;
+		margin-bottom: 60px;
+	}
+	.wrapper .content-wrapper p { text-align: justify; }
+	
+	/*-------------------- ABOUT US page --------------------*/
+	.heading-holder { display: none; }
+	.img-holder {
+		width: 100%;
+		float: none;
+	}
+	.about-us h3,
+	.reservation h3 {
+		font-weight: normal;
+		text-align: center;
+	}
+
+	#slideshow .label {
+		padding: 10px 15px;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		overflow: hidden;
+	}
+	#slideshow .label h4 { font-size: 13px; }
+	#slideshow .label h2 {
+		font-size: 25px;
+		word-break: break-word;
+		display: block;
+	}
+	#slideshow .label h2, 
+	#slideshow .label h4 { margin: 5px 0; }
+
+	.timing-details .timing-group {
+		float: left;
+		width: 50%;
+	}/*-------------------- ABOUT US page ends ---------------*/
+
+
+
+
+	.review-comments .cust-rating { margin-top: 5px; }
+	.review-comments .cust-review { width: 100%; }
+
+
+
+	/* ---------------- LOGIN SECTION --------------- */
+	.modal { top: 50px; }
+
+	.login-page.modal {
+		width: 90%;
+		margin-left: -45%;
+	}
+
+	.login-page.modal .fb-login-wrapper,
+	.login-page.modal .twitter-login-wrapper,
+	.login-page.modal .input-wrapper {
+	  width: 100%;
+	  /*float: left;*/
+	  padding: 0;
+	  margin: 10px 0;
+	}
+	/*.existing-login a { margin: 10px 0; }*/
+	.login-page.modal { padding: 20px 30px; }
+	.existing-login i { padding: 15px 20px; }
+	.login-page.modal .fb-login i { padding: 15px 28px; }
+	/* --------------------------------------------- */
+
+
+
+
+	/* ---------------- SOCIAL PRESENCE--------------- */
+	.twitter-feeds ul { padding: 20px; }
+	/* ---------------------------------------------- */
+
+
+
+	/* -------------- TESTIMONIALS PAGE ------------- */
+	.star-level-wrapper,
+	.comment-box-wrapper,
+	.facebook-box-wrapper {
+		/*width: 400px;*/
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.testimonials-page .content-wrapper > h3 { text-align: center; }
+
+
+
+
+
+
+	/* -------------- FOOD GALLERY PAGE ------------- */
+	.food-type-list li {
+		width: 33.33%;
+		margin: 8px 0;
+	}
+	.food-gallery .food-item-wrapper { width: 100%; }
+
+	.food-gallery .food-item {
+		/*width: 300px;*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/* ----------------------------------------------- */
+
+
+
+
+
+	.error-page-html .error-msg-box {
+	  text-align: center;
+	  /*max-width: 580px;*/
+	  left: 50%;
+	  margin-left: -40%;
+	  bottom: 7%;
+	  width: 80%;
+	}
+
+
+	.video-gallery > div {
+		height: 280px;
+		margin-bottom: 140px;
+	}
+	.video-caption {
+		right: 65px;
+		width: 290px;
+	}
+	.video-caption h2 { font-size: 22px; }
+	.video-caption h3 { font-size: 20px; }
+	.video-gallery .label-btn a {
+		float: right;
+		height: 100%;
+		padding: 0 20px;
+	}
+	.video-gallery .label-btn {
+		width: 100%;
+		bottom: -80px;
+	}
+
+	.in-house .img-wrappers,
+	.own-event .img-wrappers { width: 100%; }
+
+
+
+	.fc-calendar .fc-row .fc-content span.fc-date {
+		padding-top: 10px;
+		bottom: 6px;
+	}
+	.fc-calendar .fc-row > div > span.fc-date {
+		bottom: 16px;
+		right: 12px;
+	}
+
+	.upcoming-events .event-img-wrapper { width: 100%; }
+
+	
+	.name-wrapper,
+	.price-wrapper,
+	.email-wrapper, 
+	.event-wrapper,
+	.person-wrapper,
+	.address-wrapper { width: 100%; }
+
+	.event-form .submit-btn { margin-right: 15px; }
+
+
+
+
+
+	.error-page-html > section {
+	  height: 100%;
+	  background-image: url("../assets/images/404-bg.jpg");
+	  background-position: center;
+	  background-size: contain;
+	}
+	.error-head h2 { font-size: 70px; }
+	.error-head h3 { font-size: 30px; }
+
+	.error-page-html > section > img {
+		width: 90%;
+		display: inherit;
+		position: absolute;
+		left: 50%;
+		margin-left: -45%;
+		top: 37%;
+	}
+
+
+
+	/*============== 8.10.2014 ================*/
+	.basic-info .input-wrapper,
+	.requirement .input-wrapper { padding: 10px 0; }
+	.requirement > div { margin: 20px 0; }
+	.tc-submit {
+		margin: 20px 0;
+		text-align: center;
+	}
+	.tc-submit button { margin: 20px 0; }
+
+
+
+
+	.search-menu-list .head { margin: 5px 15px; }
+	/*.search-menu-items .price-add-select h2 {
+		color: #DB4F44;
+		font-weight: 400;
+	}*/
+
+
+
+
+	.theme-options { width: 50%; }
+	
+	/*//Ankit*/
+	#layerslider .sub-heading{ width: 60% !important; }
+	
+
+
+	.homepage2 .top-heading h6 span { display: none; }
+	.homepage2 .top-heading {
+
+		right: -34%;
+		bottom: 20px;
+		-webkit-transform: scale(0.55);
+		-moz-transform: scale(0.55);
+		-o-transform: scale(0.55);
+		-ms-transform: scale(0.55);
+		transform: scale(0.55);
+	}
+
+
+
+
+	.place-order .call:after,
+	.homepage .everyday-events .feature-events .figure { display: none; }
+
+	.homepage .everyday-events .feature-events .figcaption { width: 100%; }
+	.everyday-events .feature-events { height: auto; }
+	.everyday-events .feature-events .figcaption a { position: relative; }
+
+
+
+
+	.recipes .slidingDiv { width: auto; }
+} /*====================== MAX-WIDTH 768PX ========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.banner-caption h5 span { width: 65px; }
+
+	.seat-wrapper { width: 50%; }
+
+	.review-rating { width: 72%; }
+
+	.existing-login i { padding: 15px 20px; }
+	.login-page.modal .fb-login i { padding: 15px 28px; }
+
+	.star-level-wrapper,
+	.comment-box-wrapper,
+	.facebook-box-wrapper { width: 400px; }
+
+
+
+	.food-gallery .food-item .figure {
+		width: 300px;
+		height: 300px;
+	}
+	.food-gallery .food-item {
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+
+	.side-event-images .img-wrapper {
+		width: 50%;
+		float: left;
+		padding: 3px;
+	}
+	.side-event-images .img-wrapper:nth-of-type(odd) { padding-left: 0; }
+	.side-event-images .img-wrapper:nth-of-type(even) { padding-right: 0; }
+
+
+
+
+	.fc-calendar .fc-row > div > span.fc-date { font-size: 16px; }
+	.fc-five-rows .fc-row { height: 20%; }
+	.calender-markup { height: 400px; }
+
+
+
+
+	.search-menu-list { max-height: 11em; }
+	
+	
+
+
+	.landing .top-content h2 { width: auto; }
+	.landing .homepage .top-heading { width: auto; }
+	.landing .top-heading > h6 span { display: none; }
+	.todays-article .img-wrapper {
+		width: 300px;
+		height: 300px;
+	}
+
+
+
+	.homepage .top-heading { top: 150px; }
+	.homepage .top-content > img { padding-top: 430px; }
+	.homepage2 .top-content > img { padding-top: 0; }
+} /*========================= 480PX TO 767PX ========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 479px) { /*====================*/
+
+	.banner-caption h5 span { display: none; }
+
+
+	.timing-details .timing-group {
+		float: left;
+		width: 100%;
+	}
+	.timing-group > div { padding: 10px 5px; }
+
+	.seat-wrapper { width: 100%; }
+
+
+	.contact-page .content-wrapper > img { display: none; }
+	.logo-box { margin-top: 0; }
+
+
+	.fav-dish .chef-details .dish-img { border-radius: initial; }
+	
+	.existing-login i { display: block; width: 100%; }
+
+
+	.socials-other > div {
+		float: none;
+		width: 100%;
+		padding: 0!important;
+	}
+	.twitter-feeds .figure { width: 30%; }
+	.twitter-feeds .figcaption { width: 70%; }
+
+
+	.star-level-wrapper,
+	.comment-box-wrapper,
+	.facebook-box-wrapper { width: auto; }
+
+
+
+
+	/* -------------- FOOD GALLERY PAGE ------------- */
+	.food-gallery .food-item {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+	}
+
+	.food-gallery .food-item .figure {
+		width: 220px;
+		height: 220px;
+	}
+	.food-type-list li {
+		width: 50%;
+		margin: 8px 0;
+	}
+	.food-gallery .figcaption > div { width: 50%; }
+	.food-gallery .figcaption > h2 { display: inline-block; }
+	/* ----------------------------------------------- */
+
+
+	.side-event-images .img-wrapper { padding: 3px 0; }
+
+
+
+	.fc-calendar .fc-row .fc-content span.fc-date {
+		width: 30px;
+		height: 30px;
+	}
+	.fc-calendar .fc-row .fc-content span.fc-date {
+		padding-top: 5px;
+		bottom: 13px;
+	}
+	.fc-calendar .fc-row > div > span.fc-date { font-size: 16px; }
+	.fc-calendar .fc-row > div > span.fc-date { right: 8px; }
+
+	.fc-calendar .fc-head > div { font-size: 12px; }
+
+
+
+
+	/*========= 9.10.2014 ============*/
+	.header-type1 .logo {
+		top: -30px;
+		-webkit-transform: scale(0.7);
+		-moz-transform: scale(0.7);
+		-o-transform: scale(0.7);
+		-ms-transform: scale(0.7);
+		transform: scale(0.7);
+	}
+
+	.search-menu-items .figcaption > div:first-of-type { width: 100%; }
+	.search-menu-items .figcaption > div { float: none; }
+	.search-menu-items .figcaption > div:last-of-type { width: auto; }
+	.search-menu-items .price-add-select h2 {
+		float: none;
+		/*color: #DB4F44;
+		font-weight: 400;*/
+	}
+
+
+	.search-menu-list { max-height: 12em; }
+
+
+
+	.landing .homepage .top-heading {
+		margin-top: 100px; 
+		width: auto;
+	}
+
+
+	.todays-article .img-wrapper {
+		width: 180px;
+		height: 180px;
+	}
+	.todays-article {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+
+	.homepage2 .top-heading { top: 0px; }
+
+
+	.dish-options { padding: 0; }
+	.dish-options > div { padding: 8px 5px; }
+	.food-options-form select { padding: 12px 6px; }
+	.feature-events .figcaption .corner-date { padding: 10px 15px; }
+	.feature-events .figcaption .corner-time { float: right; }
+
+	.twitter-feeds .head { text-align: center; }
+	.twitter-feeds .head i,
+	.twitter-feeds .head a { float: none; }
+
+	.video-gallery .label-btn h4 { padding: 30px 0 30px 10px; }
+	.video-gallery .label-btn a { padding: 0; }
+	.video-caption {
+		right: 10px;
+		width: 200px;
+	}
+
+	.our-events .content-wrapper { padding: 15px 10px; }
+	.upcoming-events .event-img-wrapper { padding: 0; }
+	.event-img-wrapper .event-banner { padding: 5px; }
+	.button-holder a { padding: 5px; }
+	.name-date h3 { font-size: 18px; }
+	.name-date h4 { font-size: 15px; }
+	.our-events .input-wrapper { padding: 0; }
+} /*======================= MAX-WIDTH 480PX =========================*/
+
+
+
+
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 479px) {
+	.review-comments .figure {
+		width: 22%!important;
+		min-width: 78px;
+	}
+	.review-rating { width: 63%; }
+} /*===========================================================*/
+@media only screen and (max-width: 399px) {
+	.review-comments > div { float: none; }
+	.review-rating { width: auto; }
+	.review-comments .cust-rating,
+	.review-comments .figure {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.review-comments .cust-review,
+	.review-comments .cust-rating {
+		float: none;
+		margin-top: 12px;
+	}
+}/*===========================================================*/

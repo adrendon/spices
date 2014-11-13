@@ -1,0 +1,534 @@
+ /* TAB CSS */
+
+@media only screen and (max-width: 991px) { /*==============================*/
+
+	.header-type1 ul.navbar-nav a:hover {
+	  /*-webkit-box-shadow: 0px 0px 20px 0px #000;
+	  -moz-box-shadow: 0px 0px 20px 0px #000;
+	  box-shadow: 0px 0px 20px 0px #000;
+	  -ms-box-shadow: 0px 0px 20px 0px #000;
+	  -o-box-shadow: 0px 0px 20px 0px #000;
+	  background-color: #5C6369;*/
+	}
+	.nav > li > a:hover,
+	.nav > li > a:focus {
+	  /*text-decoration: none;*/
+	  
+	  /*background-color: #eeeeee;*/
+	  }
+	#navigation-list .navbar-nav ul {
+	  top: 0;
+	  left: 40%;
+	}
+	
+	
+	/*.header-type2 ul.navbar-nav a:hover { border-bottom: 2px solid #e53025; }*/
+	
+	.header-type2 ul.navbar-nav a,
+	.header-type1 ul.navbar-nav a {
+		border-bottom: 2px solid transparent;
+	}
+	.header-type2 ul.navbar-nav a:hover,
+	.header-type2 ul.navbar-nav a.active,
+	.header-type1 ul.navbar-nav a:hover,
+	.header-type1 ul.navbar-nav a.active {
+	  border-bottom-color: #e53025;
+	}
+
+
+
+
+
+
+	.about-us .banner-img,
+	.testimonials-page .banner-img,
+	.social-presence .banner-img,
+	.food-gallery .banner-img { display: none; }
+
+	/*.about-us .banner .container,*/
+	.socials-wrapper .banner-caption,
+	.testimonials-page .banner-caption,
+	.food-gallery .banner-caption { margin-top: 50px; }
+
+	.wrapper .content-wrapper {
+		margin-top: 60px;
+		padding: 25px;
+	}
+	
+	/*-------------------- ABOUT US page --------------------*/
+	.about-us .content-wrapper {
+		padding: 40px 25px;
+		margin-top: 0;
+	}
+	.img-holder {
+		text-align: center;
+		border-radius: 50%;
+	}
+	.about-us .table-book.button { display: inline-block; }
+	.about-us .btn-holder { text-align: center; }
+
+	.about-us h3 { margin-top: 60px }
+
+
+	.timing-details .timing-group {
+		float: left;
+		width: 33.33%;
+	}/*-------------------- ABOUT US page ends ---------------*/
+
+
+
+
+	/*-------------------- KNOW YOUR FOOD --------------------*/
+	.chef-details { text-align: center; }
+	.about-chef { margin-top: 60px; }
+
+	.about-chef-page .content-wrapper { padding: 50px 20px; }
+	/*-------------------- KNOW YOUR FOOD ends --------------------*/
+
+
+
+
+	/*-------------------- CONTACT US --------------------*/
+	.contact-page .container > img { display: none; }
+	.contact-page .content-wrapper { padding: 50px 20px; }
+	.logo-box img {
+		-webkit-transform: scale(0.6);
+		-moz-transform: scale(0.6);
+		-o-transform: scale(0.6);
+		-ms-transform: scale(0.6);
+		transform: scale(0.6);
+		margin-top: 15px;
+	}
+	.logo-box {
+		width: 200px;
+		height: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -90px;
+	}
+	.write-us { margin-top: 60px; }
+	/*-------------------- CONTACT US ends --------------------*/
+
+
+
+
+
+	/*-------------------- FAV-DISH --------------------*/
+	.fav-dish .content-wrapper { padding: 50px 20px; }
+	.about-dish { margin-top: 0px; }
+	.fav-dish .chef-details { margin-top: 80px; }
+	/*---------------------------------------------------*/
+
+
+
+	/*---------------- SOCIAL-PRESENCE ------------------*/
+	.socials-wrapper { margin-top: 40px; }
+	.twitter-feeds .figure { height: 110px; }
+	/*--------------------------------------------------*/
+
+
+
+	/*---------------- TESTIMONIALS ------------------*/
+	.testimonials-page .content-wrapper:last-of-type { padding: 50px 20px; }
+	/*---------------------------------------------------*/
+
+
+
+	/*.calender-info { display: none; }*/
+	.calender-info {
+		width: 100%;
+		height: auto;
+	}
+	/*.todays-article { display: none; }*/
+	.calender-markup { width: 100%; }
+	.fc-five-rows .fc-row { height: 20%; }
+	.calender-markup { height: 500px; }
+
+
+
+
+
+
+	/* -------------- FOOD GALLERY PAGE ------------- */
+	.food-gallery .content-wrapper {
+		margin-top: 0!important;
+		padding: 30px 0;
+	}
+	.food-gallery .food-item { padding: 10px 20px 15px;  }
+	/* ----------------------------------------------- */
+
+
+
+	/*------------------- OUR GALLERY PAGE ---------------------*/
+	.main-event-img-wrapper, .side-event-img-wrapper { width: 100%; }
+
+
+
+	/*============= 8.10.2014 ===============*/
+	.search-menu-list .nav-btns .left-btn.appear { left: -100px; }
+	.search-menu-list .nav-btns .right-btn.appear { right: -100px; }
+
+	.menu-items-wrapper > ul { padding: 0; }
+	.menu-items-wrapper li {
+		list-style: none;
+		padding: 20px 0;
+		border-bottom: 1px solid #dadada;
+		width: auto!important;
+	}
+	.search-menu-items {
+		margin-bottom: 0;
+		padding: 0;
+	}
+	.search-menu-items .figcaption { background-color: transparent; }
+
+	.search-menu-items > figure {
+		float: left;
+		width: 25%;
+	}
+	.search-menu-items .figcaption {
+		float: left;
+		width: 75%;
+		padding: 0 0 0 3%;
+	}
+	.search-menu-items .figcaption h3 { font-size: 20px; }
+
+	.search-menu-items .figcaption > div > div { display: none; }
+
+	.search-menu-items .figcaption > div { float: left; }
+	.search-menu-items .figcaption > div:first-of-type { width: 66%; }
+	.search-menu-items .figcaption > div:last-of-type {
+		width: 31%;
+		min-width: 95px;
+	}
+
+	.search-menu-items .price-add-select a { display: none!important; }
+
+	.search-menu-list .head:hover { cursor: pointer; }
+	.search-menu-list.show { max-height: 250em; }
+	.search-menu-list {
+		height: auto;
+		/*max-height: 12em;*/
+		overflow: hidden;
+		-webkit-transition: all 1.5s ease;
+		-moz-transition: all 1.5s ease;
+		-o-transition: all 1.5s ease;
+		-ms-transition: all 1.5s ease;
+		transition: all 1.5s ease;
+	}
+	.search-menu-items .price-add-select h2 {
+		color: #DB4F44;
+		font-weight: 400;
+	}
+
+
+
+
+
+	.search-menu-list.drinks .search-menu-items .figcaption { padding: 0 0 0 3%; }
+	.menu-items-wrapper li:last-of-type { border: none; }
+
+	.search-menu-list {
+		border: 1px solid #dadada;
+		background: -webkit-linear-gradient(#fff, #f3f3f3); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(#fff, #f3f3f3); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(#fff, #f3f3f3); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(#fff, #f3f3f3); /* Standard syntax */
+	}
+	.search-menu-list .head,
+	.search-menu-list.show { border: none; }
+
+	.search-menu-list.show { background: none; }
+
+
+
+
+	/*========== 27.10.2014 ============*/
+	.food-options-form,
+	.complete-search {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+} /*================== MAX-WIDTH (991PX) ===================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {/*=========================*/
+
+	/*============== 8.10.2014 ================*/
+	.basic-info .input-wrapper:nth-of-type(odd),
+	.requirement .input-wrapper:nth-of-type(odd) { padding-left: 0; }
+	.basic-info .input-wrapper:nth-of-type(even),
+	.requirement .input-wrapper:nth-of-type(even) { padding-right: 0; }
+
+	.basic-info .input-wrapper,
+	.requirement .input-wrapper {
+	  width: 50%;
+	  float: left;
+	  padding: 10px;
+	}
+
+
+	.requirement > div { float: left; }
+	.requirement > div:first-of-type {
+	  width: 40%;
+	  padding-right: 10px;
+	}
+	.requirement > div:last-of-type {
+	  width: 60%;
+	  padding-left: 10px;
+	}
+
+	.table-select { margin-right: 10px; }
+	.tc-submit { margin: 40px 0; }
+	.tc-submit .tc {
+		width: 70%;
+		float: left;
+	}
+	.tc-submit button { float: right; }
+
+
+
+
+	/*=========== 4.11.2014 ================*/
+	/*=========== WAYPOINT ================*/
+	.book-form,
+	.food-menus,
+	.feature-events-wrapper,
+	.user-reviews .review,
+	.homepage .sub-heading h2,
+	.homepage .sub-heading h6,
+	.search-menu-list li,
+	.chef-details figure,
+	.chef-details .figcaption,
+	.meet-chef .container > figure img:first-of-type,
+	.meet-chef .container > figure img:last-of-type,
+	.homepage .top-content > img,
+	.event-page .month-events,
+	.event-page .feature-events,
+	.fork-icon li,
+	.fav-dish .review-comments-wrapper,
+	.review-comments-wrapper,
+	.banner-caption,
+	.banner-caption h5,
+	.banner-caption h2,
+	.event-banner,
+	.bullet-wrapper,
+	.name-date,
+	.event-banner .button-holder,
+	.fav-recipes .img-holder,
+	.in-house .img-wrappers,
+	.own-event .img-wrappers { opacity: 0; }
+
+
+	.place-order,
+	.city-search,
+	.chef-details .chef-img.imgLiquid {
+	  -webkit-transform: perspective(400px) rotateX(-90deg);
+	  -moz-transform: perspective(400px) rotateX(-90deg);
+	  -o-transform: perspective(400px) rotateX(-90deg);
+	  -ms-transform: perspective(400px) rotateX(-90deg);
+	  transform: perspective(400px) rotateX(-90deg);
+
+	  -webkit-transition: all 0.5s ease-in-out;
+	  -moz-transition: all 0.5s ease-in-out;
+	  -o-transition: all 0.5s ease-in-out;
+	  -ms-transition: all 0.5s ease-in-out;
+	  transition: all 0.5s ease-in-out;
+	}
+}/*================== MIN-WIDTH (768PX) ===================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { /*========*/
+	
+	/*-------------------- ABOUT US page --------------------*/
+	.about-us ul { text-align: center; }
+	.seat-wrapper {
+		width: 32%;
+		float: none;
+		display: inline-block;
+	}
+	.timing-group > div { padding: 10px 6px; }
+	/*-------------------- ABOUT US page ends ---------------*/
+
+
+	.review-rating { width: 85%; }
+	.review-comments .cust-review {
+		width: 81%;
+		margin-right: 10px;
+	}
+
+
+	/* --------------LOGIN SECTION ------------- */
+	.login-page.modal {
+		width: 724px;
+		margin-left: -362px;
+	}
+	.login-page.modal .fb-login i { padding: 15px 24px; }
+	.existing-login i { padding: 15px 20px; }
+	/* ------------------------------------------ */
+
+
+
+	/* -------------- TESTIMONIALS PAGE ------------- */
+	.star-level-wrapper,
+	.comment-box-wrapper,
+	.facebook-box-wrapper { width: 50%; }
+
+	.box-wrapper:nth-of-type(even) {
+		padding-right: 0;
+		padding-left: 15px;
+	}
+	.box-wrapper:nth-of-type(odd) {
+		padding-left: 0;
+		padding-right: 15px!important;
+	}
+	/* ----------------------------------------------- */
+
+
+
+	/* -------------- FOOD GALLERY PAGE ------------- */
+	.food-gallery .food-item-wrapper { width: 50%; }
+	.food-gallery .food-item .figure {
+		width: 235px;
+		height: 235px;
+	}
+	/* ----------------------------------------------- */
+
+
+	.error-page-html .error-msg-box {
+	  text-align: center;
+	  max-width: 580px;
+	  left: 50%;
+	  margin-left: -290px;
+	  bottom: 7%;
+	  /*width: 80%;*/
+	}
+
+
+
+	/*------------------- OUR GALLERY PAGE ---------------------*/
+	.main-event-img-wrapper, .side-event-img-wrapper { width: 100%; }
+	.side-event-images .img-wrapper {
+	  width: 25%;
+	  float: left;
+	  padding: 6px 3px;
+	}
+	.side-event-images .img-wrapper:first-of-type { padding-left: 0; }
+	.side-event-images .img-wrapper:last-of-type { padding-right: 0; }
+	/*---------------------------------------------------------*/
+
+
+
+	.video-gallery > div { height: 280px; }
+	.video-caption {
+		right: 10px;
+		top: 59px;
+	}
+	.video-caption h2 { font-size: 38px; }
+	.video-caption h3 { 
+		font-size: 25px;
+		margin-right: 40px;
+	}
+	.video-caption h3 { margin-right: 20px; }
+
+	.in-house .img-wrappers,
+	.own-event .img-wrappers { width: 50%; }
+
+
+
+	.name-wrapper,
+	.price-wrapper { width: 60%; }
+	.email-wrapper, 
+	.event-wrapper { width: 40%; }
+	.person-wrapper,
+	.address-wrapper { width: 50%; }
+
+	.event-form .submit-btn { margin-right: 15px; }
+
+
+
+
+	.error-page-html > section {
+	  height: 100%;
+	  background-image: url("../assets/images/404.jpg");
+	  background-position: center;
+	  background-size: contain;
+	}
+	.error-page-html > section > img { display: none; }
+
+
+
+	/*============== 8.10.2014 ================*/
+	/*.basic-info .input-wrapper:nth-of-type(odd),
+	.requirement .input-wrapper:nth-of-type(odd) { padding-left: 0; }
+	.basic-info .input-wrapper:nth-of-type(even),
+	.requirement .input-wrapper:nth-of-type(even) { padding-right: 0; }
+
+	.basic-info .input-wrapper,
+	.requirement .input-wrapper {
+	  width: 50%;
+	  float: left;
+	}
+	.tc-submit .tc {
+		width: 65%;
+		float: left;
+	}
+	.tc-submit button { float: right; }*/
+
+
+	.search-menu-list { max-height: 9em; }
+	.search-menu-list .head { margin: 10px 15px; }
+
+
+	.header-type1 .navbar-nav,
+	.header-type2 .navbar-nav {
+		overflow: hidden;
+		position: absolute;
+		top: 50px;
+		margin: 0px;
+		padding: 0px 20px;
+		/*background-color: rgb(34, 34, 34);*/
+	}
+
+	.header-type1 .navbar-nav { background-color: rgb(34, 34, 34); }
+	.header-type2 .navbar-nav { background-color: #EAEFF2; }
+
+
+
+
+	.todays-article .img-wrapper {
+		width: 300px;
+		height: 300px;
+	}
+	.monthly-events-section .month-events { padding-top: 80px; }
+
+	.upcoming-events .event-img-wrapper { width: 100%; }
+
+} /*================== 768 to 991 ===================================*/
